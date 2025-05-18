@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1b244a;
+  font-family: 'Roboto';
+  color: #eee;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.scoreboard-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2.2rem 1.5rem;
+}
+
+.scoreboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem;
+  text-shadow: 0 0 4px #fff;
+}
+
+.teams {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.team-name {
+  color: #eee;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2rem;
+}
+
+.score {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  background-color: #080001;
+  width: 9.6875rem;
+  height: 7.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f94f6d;
+}
